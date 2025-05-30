@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Motion Energy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .nav-links {
+            transition: all 0.3s ease;
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 64px;
+                left: 0;
+                right: 0;
+                background: #2563eb;
+                padding: 1rem;
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .toggle-icon {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-blue-600 text-white p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Motion Energy</h1>
+            <div class="toggle-icon cursor-pointer md:hidden" onclick="toggleMenu()">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </div>
+            <div class="nav-links flex space-x-4 md:flex md:space-x-6">
+                <a href="index.html" class="hover:underline text-lg">Home</a>
+                <a href="about.html" class="hover:underline text-lg">About</a>
+                <a href="services.html" class="hover:underline text-lg">Services</a>
+                <a href="blog.html" class="hover:underline text-lg">Blog</a>
+                <a href="benefits.html" class="hover:underline text-lg">Benefits</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 1: Introduction to Motion Energy -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <img src="https://via.placeholder.com/600x300?text=Motion+Energy+Introduction" alt="Motion Energy Balm for Energy in Motion" class="rounded-lg shadow-lg mx-auto mb-6 max-w-full h-auto">
+            <h2 class="text-2xl md:text-4xl font-bold text-gray-800 mb-4">Discover Motion Energy</h2>
+            <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto">
+                Motion Energy is a warming body balm designed to support your muscles and joints. Infused with natural ingredients like rosemary oil, eucalyptus oil, cinnamon oil, ginger extract, and eucalyptus leaf, this balm promotes <strong>energy in motion</strong> for an active lifestyle.
+            </p>
+            <a href="https://uh53fba9e5uh.uewhbgfvds.cc/?target=-7EBNQCgQAAAdTRwQDU3sABQEBEREKEQkKEQ1CEQ0SAAF_YWRjb21ibwEx&al=102622&ap=-1" 
+               class="mt-6 inline-block bg-blue-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg hover:bg-blue-700 transition text-sm md:text-base">
+               Learn More About Motion Energy
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 2: What is Motion Energy? -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl md:text-4xl font-bold text-gray-800 text-center mb-8">Motion Energy Definition</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-6 md:mb-0">
+                    <img src="https://via.placeholder.com/500x300?text=Motion+Energy+Body+Balm" alt="Motion Energy Body Balm for Energy and Motion" class="rounded-lg shadow-lg max-w-full h-auto">
+                </div>
+                <div class="md:w-1/2 md:pl-8">
+                    <p class="text-base md:text-lg text-gray-600">
+                        <strong>Motion Energy</strong> is a unique body balm crafted to provide a warming sensation to muscles and joints. It complements your daily activities, helping you maintain <strong>energy and motion</strong>. Whether you're an athlete or seeking relief from discomfort, this <strong>motion energy body balm</strong> supports natural movement.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Our Ingredients -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <img src="https://via.placeholder.com/600x300?text=Natural+Ingredients" alt="Natural Ingredients in Motion Energy Balm" class="rounded-lg shadow-lg mx-auto mb-6 max-w-full h-auto">
+            <h2 class="text-2xl md:text-4xl font-bold text-gray-800 mb-8">Natural Ingredients for Energy in Motion</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-6 bg-gray-100 rounded-lg">
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-2">Rosemary & Eucalyptus Oil</h3>
+                    <p class="text-gray-600 text-sm md:text-base">Known for their soothing properties, these oils help relax muscles and promote a sense of calm.</p>
+                </div>
+                <div class="p-6 bg-gray-100 rounded-lg">
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-2">Cinnamon Oil & Ginger Extract</h3>
+                    <p class="text-gray-600 text-sm md:text-base">These ingredients provide a warming effect, supporting blood circulation in applied areas.</p>
+                </div>
+                <div class="p-6 bg-gray-100 rounded-lg">
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-2">Eucalyptus Leaf</h3>
+                    <p class="text-gray-600 text-sm md:text-base">Adds a refreshing scent and enhances the balm’s soothing qualities.</p>
+                </div>
+            </div>
+            <a href="https://uh53fba9e5uh.uewhbgfvds.cc/?target=-7EBNQCgQAAAdTRwQDU3sABQEBEREKEQkKEQ1CEQ0SAAF_YWRjb21ibwEx&al=102622&ap=-1" 
+               class="mt-6 inline-block bg-blue-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg hover:bg-blue-700 transition text-sm md:text-base">
+               Order Motion Energy Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 4: Our Mission -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4 text-center">
+            <img src="https://via.placeholder.com/600x300?text=Motion+Energy+Mission" alt="Motion Energy Mission for Energy and Motion" class="rounded-lg shadow-lg mx-auto mb-6 max-w-full h-auto">
+            <h2 class="text-2xl md:text-4xl font-bold text-gray-800 mb-8">Our Mission</h2>
+            <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto">
+                At Motion Energy, our mission is to empower you to live an active, vibrant life. We believe in the power of <strong>motion energy</strong> to enhance your daily routine, offering a natural way to support your muscles and joints with our <strong>motion energy body balm</strong>.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section 5: Footnotes -->
+    <section class="py-8 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <img src="https://via.placeholder.com/600x300?text=Motion+Energy+Info" alt="Motion Energy Information" class="rounded-lg shadow-lg mx-auto mb-6 max-w-full h-auto">
+            <p class="text-xs md:text-sm text-gray-500">
+                *This Advertorial is based on fiction and any similarity to real people, places, or events are purely coincidental.
+            </p>
+            <p class="text-xs md:text-sm text-gray-500 mt-2">
+                *The product advertised is a dietary supplement. Dietary supplements are products intended to supplement the diet. They are not medicines and are not intended to treat, diagnose, mitigate, prevent, or cure diseases.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-sm">© 2025 Motion Energy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
