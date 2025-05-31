@@ -1,4 +1,5 @@
 User-agent: *
-Disallow:
+Allow: /
 
 Sitemap: https://motion-energy-eight.vercel.app/sitemap.xml
+
